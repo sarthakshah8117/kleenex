@@ -372,6 +372,90 @@ iframe
 
 /* Contact Page - Main Container ends*/
 
+/* ABOUT US PAGE STYLING STARTS HERE */
+
+.aboutTitle
+{
+  height: 50vh;
+  background-color: #120528;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/team.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.aboutTitle p
+{
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  font-size: 5em;
+  font-weight: bolder;
+}
+
+.aboutCon, .aboutTagline
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+p.klTag
+{
+  font-family: 'Arial', sans-serif;
+  color: #000;
+  font-size: 1.5em;
+  font-weight: bolder;
+  letter-spacing: 1px;
+
+  text-align: center;
+}
+
+p.klTagSubText
+{
+  text-align: center;
+  font-size: 1.08em;
+}
+
+#redText
+{
+  color: red;
+}
+
+.conSection
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+
+  width: 80%;
+}
+
+.mainConText
+{
+  text-align: justify;
+  width: 40%;
+  margin-top: 50px;
+}
+
+.mainConText p
+{
+  font-family: 'Arial', sans-serif;
+  color: #000;
+  font-size: 1.35em;
+}
+
+
+
+/* ABOUT US PAGE STYLING ENDS HERE */
+
 /* Navigation - Media Query */
 
 @media screen and (max-width: 768px)
