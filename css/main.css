@@ -1,0 +1,462 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navigation bar edits starts here */
+
+.headCon
+{
+  background-color: #7a4c08;
+  height: 10vh;
+}
+
+.headCon nav
+{
+  display: flex;
+  width: 90%;
+  margin: auto;
+
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo
+{
+  flex: 1;
+  /* background-color: red; */
+}
+
+.logo img
+{
+  width: 12vh;
+  height: auto;
+
+  transform: rotate(-15deg);
+  -ms-transform: rotate(-15deg);
+  -moz-transform: rotate(-15deg);
+  -o-transform: rotate(-15deg);
+}
+
+.nav-links
+{
+  display: flex;
+  justify-content: space-between;
+  /* flex: 1; */
+  width: 50%;
+  /* background-color: green; */
+  padding-right: 50px;
+}
+
+.nav-links li
+{
+  margin-top: 20px;
+}
+
+.nav-links li a
+{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1em;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  list-style: none;
+
+  color: #fff;
+}
+
+.navHover::after
+{
+  content: "";
+  margin-top: 5px;
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  transition: width 0.3s;
+  -webkit-transition: width 0.3s;
+  -moz-transition: width 0.3s;
+  -o-transition: width 0.3s;
+  -ms-transition: width 0.3s;
+}
+
+.navHover:hover::after{
+  width: 100%;
+  margin-top: 5px;
+  transition: width 0.3s;
+  -webkit-transition: width 0.3s;
+  -moz-transition: width 0.3s;
+  -o-transition: width 0.3s;
+  -ms-transition: width 0.3s;
+}
+
+.active::after
+{
+  width: 100%;
+  margin-top: 5px;
+}
+
+.burgerMenu
+{
+  display: none;
+  cursor: pointer;
+}
+
+.burgerMenu img
+{
+  width: 3vh;
+  height: auto;
+}
+
+.rotateBurger
+{
+  transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+
+  transition: transform 0.5s ease-in;
+}
+
+
+/* Navigation bar edits ends here */
+
+/* Contact Page - Main Container */
+
+.contactContainer
+{
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+
+  margin-top: 100px;
+}
+
+.leftText
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+}
+
+.leftText img
+{
+  width: 100%;
+  height: auto;
+}
+
+p.getTouchText
+{
+  font-family: 'Roboto', sans-serif;
+  font-size: 3.5em;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #7a4c08;
+}
+
+.contactForm
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+}
+
+p.gotText
+{
+  font-family: 'Poppins', sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+p.supportText
+{
+  font-family: 'Poppins', sans-serif;
+  font-size: .95rem;
+  max-width: 400px;
+  text-align: center;
+}
+
+form{
+  margin-top: 40px;
+}
+
+form input
+{
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #7a4c08;
+  padding: 10px;
+}
+
+form textarea{
+  border: 1px solid #7a4c08;
+  border-radius: 10px;
+}
+
+.but
+{
+  border: 1px solid #7a4c08;
+  background: none;
+  font-size: 1.2em;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 5px 20px 5px 20px;
+  margin:10px;
+  border-radius: 5px;
+
+  position: relative;
+  overflow: hidden;
+
+}
+
+.but1
+{
+  color: #7a4c08;
+}
+
+.but1:hover{
+  color: #fff;
+}
+
+.but::before
+{
+  content: " ";
+  position: absolute;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background: #7a4c08;
+  z-index: -1;
+
+  transition: 0.8s ease;
+  -moz-transition: 0.8s ease;
+  -ms-transition: 0.8s ease;
+  -webkit-transition: 0.8s ease;
+}
+
+.but1::before
+{
+  top: 0;
+  border-radius: 0 50% 50% 0%;
+}
+
+.but1:hover::before{
+  width: 180%;
+}
+
+
+.homeFooter
+{
+    background-color: #000;
+    min-height: 2vh;
+    position: relative;
+    top: 42px;
+}
+
+.widthCon
+{
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 85%;
+  justify-content: space-between;
+  /* background-color: #000; */
+}
+
+.socialMediaRow
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 8%;
+  margin: 10px;
+}
+
+.contactFooter
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #000;
+  margin-top: 25px;
+}
+
+.footerPanel
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+  padding: 20px;
+}
+
+.footerNav
+{
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+
+  margin: auto;
+}
+
+.footerNav ul
+{
+  display: flex;
+  align-items: center;
+
+  width: 40%;
+  /* margin-left: 300px; */
+}
+
+.footerNav ul a
+{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5vh;
+}
+
+.socialRow
+{
+  display: flex;
+}
+
+.socialRow img
+{
+  width: 3.5vh;
+  height: auto;
+  margin-right: 20px;
+}
+
+.socialMediaRow img
+{
+  width: 30px;
+  height: auto;
+}
+
+.addPanel p, .copyCon p
+{
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+}
+
+p.addTitle
+{
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+
+.copyCon
+{
+  margin-top: 20px;
+}
+
+iframe
+{
+  width: 50vh;
+  height: 30vh;;
+  border-radius: 10px;
+}
+
+
+/* Contact Page - Main Container ends*/
+
+/* Navigation - Media Query */
+
+@media screen and (max-width: 768px)
+{
+  .nav-links
+  {
+    position: absolute;
+    right: 0;
+    height: 90vh;
+    top: 10vh;
+    background-color: #7a4c08;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+
+    transform: translateX(100%);
+
+    transition: transform 0.5s ease-in;
+    opacity: 0;
+  }
+
+  body{
+    overflow-x: hidden;
+  }
+
+  .burgerMenu
+  {
+    display: flex;
+  }
+
+  .burgerMenu img
+  {
+    margin-top: 10px;
+  }
+
+  .leftText
+  {
+    display: none;
+  }
+
+  .footerPanel
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+  }
+
+  iframe
+  {
+    margin-top: 35px;
+    width: 50vh;
+    height: auto;
+  }
+
+  .socialRow
+  {
+    margin-left: 40px;
+  }
+}
+
+@media screen and (max-width: 950px)
+{
+  .nav-links
+  {
+      width: 70%;
+  }
+  .leftText
+  {
+    display: none;
+  }
+  .footerNav ul
+  {
+      display: none;
+  }
+}
+
+/* Navigation - Media Query ends */
+
+.activateLink    /* Slide nav bar visible */
+{
+  transform: translate(20%);
+  opacity: 1;
+}
