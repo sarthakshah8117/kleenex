@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+body
+{
+  overflow-x: hidden;
+}
+
 /* Navigation bar edits starts here */
 
 .headCon
@@ -60,6 +65,7 @@
 {
   font-family: 'Poppins', sans-serif;
   font-size: 1em;
+  font-weight: lighter;
   letter-spacing: 0.5px;
   text-decoration: none;
   list-style: none;
@@ -452,15 +458,13 @@ p.klTagSubText
   display: flex;
   justify-content: space-around;
   align-items: center;
-
   width: 80%;
-  z-index: 1;
 }
 
-.rightInfoCon
+/* .rightInfoCon
 {
   margin-left: 30px;
-}
+} */
 
 .yearsCon
 {
@@ -651,6 +655,11 @@ p.exCount
     display: none;
   }
 
+  .aboutTitle
+  {
+      height: 35vh;
+  }
+
   .footerPanel
   {
     display: flex;
@@ -672,6 +681,100 @@ p.exCount
   {
     margin-left: 40px;
   }
+
+  /* ABOUT US PAGE STARTS  */
+
+  .conSection
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+  }
+
+  .mainConText
+  {
+    width: 80%;
+  }
+
+  .contactLogo img
+  {
+    width: 13vh;
+    height: auto;
+    margin-top: 20px;
+
+    transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+    -moz-transform: rotate(-15deg);
+    -o-transform: rotate(-15deg);
+
+    filter: drop-shadow(0px 10px 3px #c2c2c2);
+  }
+
+  .bottomTagLine
+  {
+    margin-top: 60px;
+    width: 85%;
+  }
+
+  .socialRowAbout a img
+  {
+    width: 3vh;
+    height: auto;
+  }
+
+  .infoSection
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: auto;
+    margin-top: 30px;
+    background-color: #7a4c08;
+    height: 25vh;
+  }
+
+  .verticalLine
+  {
+    height: 15vh;
+  }
+
+  .yearsCon img
+  {
+    width: 3vh;
+    height: auto;
+  }
+
+  #globeImage
+  {
+    width: 4vh;
+    height: auto;
+  }
+
+  .yearsCon p
+  {
+    width: 60%;
+    text-align: center;
+  }
+
+  p.exCount
+  {
+    font-size: 1.5em;
+  }
+
+  .yearsCon p.exText
+  {
+    font-size: 0.95em;
+  }
+
+  .leftInfoCon
+  {
+    width: 95%;
+    align-items: center;
+  }
+  /* ABOUT US PAGE ENDS HERE  */
 }
 
 @media screen and (max-width: 950px)
@@ -688,6 +791,134 @@ p.exCount
   {
       display: none;
   }
+  /* ABOUT US PAGE STARTS  */
+
+  .conSection
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+  }
+
+  .mainConText
+  {
+    width: 80%;
+  }
+
+  .contactLogo img
+  {
+    width: 13vh;
+    height: auto;
+    margin-top: 20px;
+
+    transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+    -moz-transform: rotate(-15deg);
+    -o-transform: rotate(-15deg);
+
+    filter: drop-shadow(0px 10px 3px #c2c2c2);
+  }
+
+  .bottomTagLine
+  {
+    margin-top: 60px;
+  }
+
+  .horizon
+  {
+    width: 80vh;
+  }
+
+  .socialRowAbout a img
+  {
+    width: 3vh;
+    height: auto;
+  }
+
+  .infoSection
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: auto;
+    margin-top: 30px;
+    background-color: #7a4c08;
+    height: 25vh;
+  }
+
+  .verticalLine
+  {
+    height: 15vh;
+  }
+
+  .yearsCon img
+  {
+    width: 3vh;
+    height: auto;
+  }
+
+  #globeImage
+  {
+    width: 4vh;
+    height: auto;
+  }
+
+  .yearsCon p
+  {
+    width: 60%;
+    text-align: center;
+  }
+
+  p.exCount
+  {
+    font-size: 1.5em;
+  }
+
+  .yearsCon p.exText
+  {
+    font-size: 0.95em;
+  }
+
+  .leftInfoCon
+  {
+    width: 95%;
+    align-items: center;
+  }
+  /* ABOUT US PAGE ENDS HERE  */
+}
+
+@media screen and (max-width: 1100px)
+{
+  /* ABOUT US PAGE  */
+  .aboutTitle
+  {
+      height: 35vh;
+  }
+
+  .leftInfoCon
+  {
+    width: 90%;
+  }
+
+  .horizon
+  {
+    width: 60vh;
+  }
+
+  .bottomTagLine
+  {
+    width: 75%;
+  }
+
+  .socialRowAbout a img
+  {
+    width: 3vh;
+    height: auto;
+  }
+  /* ABOUT US PAGE  ENDS*/
 }
 
 /* Navigation - Media Query ends */
