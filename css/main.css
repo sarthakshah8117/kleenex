@@ -5,6 +5,16 @@
   box-sizing: border-box;
 }
 
+.hidden
+{
+  display: none;
+}
+
+body
+{
+  overflow-x: hidden;
+}
+
 /* Navigation bar edits starts here */
 
 .headCon
@@ -60,6 +70,7 @@
 {
   font-family: 'Poppins', sans-serif;
   font-size: 1em;
+  font-weight: lighter;
   letter-spacing: 0.5px;
   text-decoration: none;
   list-style: none;
@@ -372,10 +383,387 @@ iframe
 
 /* Contact Page - Main Container ends*/
 
+/* ABOUT US PAGE STYLING STARTS HERE */
+
+.aboutTitle
+{
+  height: 50vh;
+  background-color: #120528;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/team.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.aboutTitle p
+{
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  font-size: 5em;
+  font-weight: bolder;
+}
+
+.aboutCon, .aboutTagline
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+p.klTag
+{
+  font-family: 'Arial', sans-serif;
+  color: #000;
+  font-size: 1.5em;
+  font-weight: bolder;
+  letter-spacing: 1px;
+
+  text-align: center;
+}
+
+p.klTagSubText
+{
+  text-align: center;
+  font-size: 1.08em;
+}
+
+#redText
+{
+  color: red;
+}
+
+.infoSection
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: auto;
+  margin-top: 30px;
+  background-color: #7a4c08;
+  height: 40vh;
+}
+
+.verticalLine
+{
+    border-right: 2px solid;
+    height: 30vh;
+    width: 0.5vh;
+    /* background-color: #000; */
+}
+
+.leftInfoCon
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+}
+
+/* .rightInfoCon
+{
+  margin-left: 30px;
+} */
+
+.yearsCon
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.yearsCon p
+{
+  text-align: center;
+}
+
+p.exCount
+{
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  font-size: 2em;
+  font-weight: bolder;
+  letter-spacing: 2px;
+
+  margin-top: 25px;
+}
+
+.yearsCon p.exText
+{
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  font-size: 1.2em;
+  letter-spacing: 2px;
+}
+
+.yearsCon img
+{
+  width: 6vh;
+  height: auto;
+}
+
+#globeImage
+{
+  width: 8vh;
+  height: auto;
+}
+.conSection
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+
+  width: 80%;
+}
+
+.mainConText
+{
+  text-align: justify;
+  width: 40%;
+  margin-top: 50px;
+}
+
+.mainConText p
+{
+  font-family: 'Arial', sans-serif;
+  color: #000;
+  font-size: 1.35em;
+}
+
+.bottomTag
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 50px;
+}
+
+.horizon
+{
+  width: 125vh;
+  border-bottom: 3px solid grey;
+}
+
+.contactLogo img
+{
+  width: 20vh;
+  height: auto;
+  margin-top: 20px;
+
+  transform: rotate(-15deg);
+  -ms-transform: rotate(-15deg);
+  -moz-transform: rotate(-15deg);
+  -o-transform: rotate(-15deg);
+
+  filter: drop-shadow(0px 10px 3px #c2c2c2);
+}
+
+.bottomTagLine
+{
+  margin-top: 60px;
+  width: 50%;
+}
+
+.bottomTagLine p
+{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #7c0000;
+  letter-spacing: 2px;
+  text-align: center;
+  font-style: italic;
+}
+
+.footAbout
+{
+  background-color: #000;
+}
+
+.aboutFooter
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+
+}
+
+.socialRowAbout
+{
+  display: flex;
+}
+
+.socialRowAbout a img
+{
+  width: 4vh;
+  height: auto;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+/* ABOUT US PAGE STYLING ENDS HERE */
+
+/* --- PRODUCT PAGE STYLING STARTS --- */
+
+.productMainCon, .productContainer
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 40px;
+
+  width: 80%;
+}
+
+.ourBeerTitle p
+{
+  font-family: 'Poppins', sans-serif;
+  font-size: 3em;
+  font-weight: bolder;
+}
+
+.ourBeerTitle p span
+{
+  color: red;
+}
+
+.firstProductCon
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 80px;
+
+  width: 90%;
+}
+
+.productContent
+{
+  flex: 1;
+}
+
+.productContainer p
+{
+    font-family: "Poppins", sans-serif;
+    line-height: 35px;
+}
+
+p.hurryUPText
+{
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+
+p.wipeText
+{
+  font-family: "Arial", sans-serif;
+  font-size: 2.5em;
+  font-weight: bolder;
+  color: #3366b0;
+  letter-spacing: 2px;
+}
+
+p.alcText
+{
+  font-size: 1em;
+  font-weight: bold;
+  color: red;
+  letter-spacing: 2px;
+}
+
+p.aboutBeer
+{
+  font-size: 20px;
+}
+
+p.aboutBeer span
+{
+  font-size: 25px;
+  font-weight: bold;
+  color: red;
+  letter-spacing: 3px;
+}
+
+.productContent button
+{
+  margin-top: 60px;
+}
+
+.secCon
+{
+  margin-top: 180px;
+}
+
+.secImage
+{
+  flex: 1;
+}
+
+.packageImage img
+{
+  width: 550px;
+  height: auto;
+}
+
+.aboutCopyCon
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex: 1;
+}
+
+/* ----------------Appear Text styles----------------- */
+
+.appearCon, .appearConA, .appearConB
+{
+  opacity: 0;
+  transform: translateY(20px);
+  -moz-transform: translateY(20px);
+  -o-transform: translateY(20px);
+  -ms-transform: translateY(20px);
+
+  transition: 0.5s all ease-in-out;
+  -moz-transition: 0.5s all ease-in-out;
+  -o-transition: 0.5s all ease-in-out;
+  -ms-transition: 0.5s all ease-in-out;
+}
+
+.appearText
+{
+  opacity: 1;
+  transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  -o-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+}
+
+/* ----------------Appear Text styles----------------- */
+
+/* --- PRODUCT PAGE STYLING STARTS ---  */
+
 /* Navigation - Media Query */
 
 @media screen and (max-width: 768px)
 {
+
   .nav-links
   {
     position: absolute;
@@ -414,6 +802,11 @@ iframe
     display: none;
   }
 
+  .aboutTitle
+  {
+      height: 35vh;
+  }
+
   .footerPanel
   {
     display: flex;
@@ -435,6 +828,130 @@ iframe
   {
     margin-left: 40px;
   }
+
+  /* ABOUT US PAGE STARTS  */
+
+  .conSection
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+  }
+
+  .mainConText
+  {
+    width: 80%;
+  }
+
+  .contactLogo img
+  {
+    width: 13vh;
+    height: auto;
+    margin-top: 20px;
+
+    transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+    -moz-transform: rotate(-15deg);
+    -o-transform: rotate(-15deg);
+
+    filter: drop-shadow(0px 10px 3px #c2c2c2);
+  }
+
+  .bottomTagLine
+  {
+    margin-top: 60px;
+    width: 85%;
+  }
+
+  .socialRowAbout a img
+  {
+    width: 3vh;
+    height: auto;
+  }
+
+  .infoSection
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: auto;
+    margin-top: 30px;
+    background-color: #7a4c08;
+    height: 25vh;
+  }
+
+  .verticalLine
+  {
+    height: 15vh;
+  }
+
+  .yearsCon img
+  {
+    width: 3vh;
+    height: auto;
+  }
+
+  #globeImage
+  {
+    width: 4vh;
+    height: auto;
+  }
+
+  .yearsCon p
+  {
+    width: 60%;
+    text-align: center;
+  }
+
+  p.exCount
+  {
+    font-size: 1.5em;
+  }
+
+  .yearsCon p.exText
+  {
+    font-size: 0.95em;
+  }
+
+  .leftInfoCon
+  {
+    width: 95%;
+    align-items: center;
+  }
+  /* ABOUT US PAGE ENDS HERE  */
+
+  /* PRODUCT PAGE STARTS HERE */
+
+  .firstProductCon
+  {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: 80px;
+  }
+
+  .productContent
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .flexCon
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* PRODUCT PAGE ENDS HERE */
 }
 
 @media screen and (max-width: 950px)
@@ -451,6 +968,174 @@ iframe
   {
       display: none;
   }
+  /* ABOUT US PAGE STARTS  */
+
+  .conSection
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+  }
+
+  .mainConText
+  {
+    width: 80%;
+  }
+
+  .contactLogo img
+  {
+    width: 13vh;
+    height: auto;
+    margin-top: 20px;
+
+    transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+    -moz-transform: rotate(-15deg);
+    -o-transform: rotate(-15deg);
+
+    filter: drop-shadow(0px 10px 3px #c2c2c2);
+  }
+
+  .bottomTagLine
+  {
+    margin-top: 60px;
+  }
+
+  .horizon
+  {
+    width: 80vh;
+  }
+
+  .socialRowAbout a img
+  {
+    width: 3vh;
+    height: auto;
+  }
+
+  .infoSection
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: auto;
+    margin-top: 30px;
+    background-color: #7a4c08;
+    height: 25vh;
+  }
+
+  .verticalLine
+  {
+    height: 15vh;
+  }
+
+  .yearsCon img
+  {
+    width: 3vh;
+    height: auto;
+  }
+
+  #globeImage
+  {
+    width: 4vh;
+    height: auto;
+  }
+
+  .yearsCon p
+  {
+    width: 60%;
+    text-align: center;
+  }
+
+  p.exCount
+  {
+    font-size: 1.5em;
+  }
+
+  .yearsCon p.exText
+  {
+    font-size: 0.95em;
+  }
+
+  .leftInfoCon
+  {
+    width: 95%;
+    align-items: center;
+  }
+  /* ABOUT US PAGE ENDS HERE  */
+
+  /* PRODUCT PAGE STARTS HERE */
+
+  .firstProductCon
+  {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: 80px;
+  }
+
+  .productContent
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .flexCon
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* PRODUCT PAGE ENDS HERE */
+
+}
+
+@media screen and (max-width: 1100px)
+{
+  /* ABOUT US PAGE  */
+  .aboutTitle
+  {
+      height: 35vh;
+  }
+
+  .leftInfoCon
+  {
+    width: 90%;
+  }
+
+  .horizon
+  {
+    width: 60vh;
+  }
+
+  .bottomTagLine
+  {
+    width: 75%;
+  }
+
+  .socialRowAbout a img
+  {
+    width: 3vh;
+    height: auto;
+  }
+  /* ABOUT US PAGE  ENDS*/
+
+  /* PRODUCT PAGE STYLING */
+
+  .firstProductCon
+  {
+    width: 95%;
+  }
+
+  /* PRODUCT PAGE STYLING */
 }
 
 /* Navigation - Media Query ends */
