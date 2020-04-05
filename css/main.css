@@ -613,6 +613,112 @@ p.exCount
 
 /* ABOUT US PAGE STYLING ENDS HERE */
 
+/* --- PRODUCT PAGE STYLING STARTS --- */
+
+.productMainCon, .productContainer
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 40px;
+
+  width: 80%;
+}
+
+.ourBeerTitle p
+{
+  font-family: 'Poppins', sans-serif;
+  font-size: 3em;
+  font-weight: bolder;
+}
+
+.ourBeerTitle p span
+{
+  color: red;
+}
+
+.firstProductCon
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 80px;
+
+  width: 90%;
+}
+
+.productContent
+{
+  flex: 1;
+}
+
+.productContainer p
+{
+    font-family: "Poppins", sans-serif;
+    line-height: 35px;
+}
+
+p.hurryUPText
+{
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+
+p.wipeText
+{
+  font-family: "Arial", sans-serif;
+  font-size: 2.5em;
+  font-weight: bolder;
+  color: #3366b0;
+  letter-spacing: 2px;
+}
+
+p.alcText
+{
+  font-size: 1em;
+  font-weight: bold;
+  color: red;
+  letter-spacing: 2px;
+}
+
+p.aboutBeer
+{
+  font-size: 20px;
+}
+
+p.aboutBeer span
+{
+  font-size: 25px;
+  font-weight: bold;
+  color: red;
+  letter-spacing: 3px;
+}
+
+.productContent button
+{
+  margin-top: 60px;
+}
+
+.secCon
+{
+  margin-top: 180px;
+}
+
+.secImage
+{
+  flex: 1;
+}
+
+.packageImage img
+{
+  width: 550px;
+  height: auto;
+}
+
+/* --- PRODUCT PAGE STYLING STARTS ---  */
+
 /* Navigation - Media Query */
 
 @media screen and (max-width: 768px)
