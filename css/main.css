@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+.hidden
+{
+  display: none;
+}
+
 body
 {
   overflow-x: hidden;
