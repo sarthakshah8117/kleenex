@@ -717,6 +717,14 @@ p.aboutBeer span
   height: auto;
 }
 
+.aboutCopyCon
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex: 1;
+}
+
 /* ----------------Appear Text styles----------------- */
 
 .appearCon, .appearConA, .appearConB
@@ -750,6 +758,7 @@ p.aboutBeer span
 
 @media screen and (max-width: 768px)
 {
+
   .nav-links
   {
     position: absolute;
@@ -908,6 +917,36 @@ p.aboutBeer span
     align-items: center;
   }
   /* ABOUT US PAGE ENDS HERE  */
+
+  /* PRODUCT PAGE STARTS HERE */
+
+  .firstProductCon
+  {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: 80px;
+  }
+
+  .productContent
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .flexCon
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* PRODUCT PAGE ENDS HERE */
 }
 
 @media screen and (max-width: 950px)
@@ -1021,6 +1060,37 @@ p.aboutBeer span
     align-items: center;
   }
   /* ABOUT US PAGE ENDS HERE  */
+
+  /* PRODUCT PAGE STARTS HERE */
+
+  .firstProductCon
+  {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: 80px;
+  }
+
+  .productContent
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .flexCon
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* PRODUCT PAGE ENDS HERE */
+
 }
 
 @media screen and (max-width: 1100px)
@@ -1052,6 +1122,15 @@ p.aboutBeer span
     height: auto;
   }
   /* ABOUT US PAGE  ENDS*/
+
+  /* PRODUCT PAGE STYLING */
+
+  .firstProductCon
+  {
+    width: 95%;
+  }
+
+  /* PRODUCT PAGE STYLING */
 }
 
 /* Navigation - Media Query ends */
