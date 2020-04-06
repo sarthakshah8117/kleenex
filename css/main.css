@@ -794,7 +794,8 @@ p.divContent
 
 .parallaxEffect:nth-child(1)
 {
-  background-image: url("../images/barley.jpg");
+  background: url("../images/barley.jpg");
+  height: 100vh;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -802,6 +803,7 @@ p.divContent
 .parallaxEffect:nth-child(2)
 {
   background: maroon;
+  background-size: contain;
   height: 60vh;
 }
 
