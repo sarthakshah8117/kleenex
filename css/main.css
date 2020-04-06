@@ -10,6 +10,11 @@
   display: none;
 }
 
+.processPage
+{
+  overflow-x: hidden;
+}
+
 body
 {
   overflow-x: hidden;
@@ -789,13 +794,15 @@ p.divContent
   text-align: center;
   width: 50%;
   font-size: 2em;
+  line-height: 60px;
   color: #fff;
 }
 
 .parallaxEffect:nth-child(1)
 {
   background: url("../images/barley.jpg");
-  height: 100vh;
+  min-height: 100vh;
+  background-position: center;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -810,6 +817,7 @@ p.divContent
 .parallaxEffect:nth-child(3)
 {
   background-image: url("../images/hops.jpg");
+  background-position: center;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -823,6 +831,7 @@ p.divContent
 .parallaxEffect:nth-child(5)
 {
   background-image: url("../images/yest.jpg");
+  background-position: center;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -836,6 +845,7 @@ p.divContent
 .parallaxEffect:nth-child(7)
 {
   background-image: url("../images/water.jpg");
+  background-position: center;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -848,7 +858,8 @@ p.divContent
 
 .parallaxEffect:nth-child(9)
 {
-  background-image: url("../images/first.png");
+  background-image: url("../images/packaging.png");
+  background-position: center;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -1054,6 +1065,106 @@ p.divContent
   }
 
   /* PRODUCT PAGE ENDS HERE */
+
+  /* Process Page Starts Here */
+  p.divTitle
+  {
+    font-family: 'Arial', sans-serif;
+    font-size: 4em;
+    font-weight: bolder;
+    color: #fff;
+  }
+
+  p.divContent
+  {
+    text-align: center;
+    width: 50%;
+    font-size: 1.5em;
+    color: #fff;
+    line-height: 35px;
+  }
+
+  .parallaxEffect:nth-child(1)
+  {
+    background: url("../images/barley.jpg");
+    min-height: 60vh;
+    height: 30vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .parallaxEffect:nth-child(2)
+  {
+    background: maroon;
+    background-size: contain;
+    height: 40vh;
+  }
+
+  .parallaxEffect:nth-child(3)
+  {
+    background-image: url("../images/hops.jpg");
+    min-height: 60vh;
+    height: 30vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .parallaxEffect:nth-child(4)
+  {
+    background: #7a4c08;
+    height: 40vh;
+  }
+
+  .parallaxEffect:nth-child(5)
+  {
+    background-image: url("../images/yest.jpg");
+    min-height: 60vh;
+    height: 30vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .parallaxEffect:nth-child(6)
+  {
+    background: maroon;
+    height: 40vh;
+  }
+
+  .parallaxEffect:nth-child(7)
+  {
+    background-image: url("../images/water.jpg");
+    min-height: 60vh;
+    height: 30vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .parallaxEffect:nth-child(8)
+  {
+    background: #7a4c08;
+    height: 40vh;
+  }
+
+  .parallaxEffect:nth-child(9)
+  {
+    background-image: url("../images/packaging.png");
+    min-height: 60vh;
+    height: 20vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .parallaxEffect:nth-child(10)
+  {
+    background: maroon;
+    height: 40vh;
+  }
+  /* Process Page Starts Here */
 }
 
 @media screen and (max-width: 950px)
@@ -1198,6 +1309,106 @@ p.divContent
 
   /* PRODUCT PAGE ENDS HERE */
 
+  p.divTitle
+  {
+    font-family: 'Arial', sans-serif;
+    font-size: 4em;
+    font-weight: bolder;
+    color: #fff;
+  }
+
+  p.divContent
+  {
+    text-align: center;
+    width: 50%;
+    font-size: 1.5em;
+    color: #fff;
+    line-height: 35px;
+  }
+
+  .parallaxEffect:nth-child(1)
+  {
+    background: url("../images/barley.jpg");
+    min-height: 60vh;
+    height: 30vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .parallaxEffect:nth-child(2)
+  {
+    background: maroon;
+    background-size: contain;
+    height: 40vh;
+  }
+
+  .parallaxEffect:nth-child(3)
+  {
+    background-image: url("../images/hops.jpg");
+    min-height: 60vh;
+    height: 30vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .parallaxEffect:nth-child(4)
+  {
+    background: #7a4c08;
+    height: 40vh;
+  }
+
+  .parallaxEffect:nth-child(5)
+  {
+    background-image: url("../images/yest.jpg");
+    min-height: 60vh;
+    height: 30vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .parallaxEffect:nth-child(6)
+  {
+    background: maroon;
+    height: 40vh;
+  }
+
+  .parallaxEffect:nth-child(7)
+  {
+    background-image: url("../images/water.jpg");
+    min-height: 60vh;
+    height: 30vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .parallaxEffect:nth-child(8)
+  {
+    background: #7a4c08;
+    height: 40vh;
+  }
+
+  .parallaxEffect:nth-child(9)
+  {
+    background-image: url("../images/packaging.png");
+    min-height: 60vh;
+    height: 20vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .parallaxEffect:nth-child(10)
+  {
+    background: maroon;
+    height: 60vh;
+  }
+
+  /* PROCESS PAGE ENDS HERE */
+
 }
 
 @media screen and (max-width: 1100px)
@@ -1237,7 +1448,107 @@ p.divContent
     width: 95%;
   }
 
-  /* PRODUCT PAGE STYLING */
+  /* PROCESS PAGE STYLING */
+
+  p.divTitle
+  {
+    font-family: 'Arial', sans-serif;
+    font-size: 4em;
+    font-weight: bolder;
+    color: #fff;
+  }
+
+  p.divContent
+  {
+    text-align: center;
+    width: 50%;
+    font-size: 1.5em;
+    color: #fff;
+    line-height: 35px;
+  }
+
+  .parallaxEffect:nth-child(1)
+  {
+    background: url("../images/barley.jpg");
+    min-height: 60vh;
+    height: 45vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .parallaxEffect:nth-child(2)
+  {
+    background: maroon;
+    background-size: contain;
+    height: 40vh;
+  }
+
+  .parallaxEffect:nth-child(3)
+  {
+    background-image: url("../images/hops.jpg");
+    min-height: 60vh;
+    height: 30vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .parallaxEffect:nth-child(4)
+  {
+    background: #7a4c08;
+    height: 40vh;
+  }
+
+  .parallaxEffect:nth-child(5)
+  {
+    background-image: url("../images/yest.jpg");
+    min-height: 60vh;
+    height: 45vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .parallaxEffect:nth-child(6)
+  {
+    background: maroon;
+    height: 40vh;
+  }
+
+  .parallaxEffect:nth-child(7)
+  {
+    background-image: url("../images/water.jpg");
+    min-height: 60vh;
+    height: 30vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .parallaxEffect:nth-child(8)
+  {
+    background: #7a4c08;
+    height: 40vh;
+  }
+
+  .parallaxEffect:nth-child(9)
+  {
+    background-image: url("../images/packaging.png");
+    min-height: 60vh;
+    height: 20vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .parallaxEffect:nth-child(10)
+  {
+    background: maroon;
+    height: 40vh;
+  }
+
+  /* PROCESS PAGE ENDS HERE */
 }
 
 /* Navigation - Media Query ends */
