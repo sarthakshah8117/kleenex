@@ -51,6 +51,8 @@ function  scrollAppearA()
 }
 //  PRODUCT PAGE - Scroll Text Appear effect function
 
+// Parallax effect on process PAGE
+
 
 burger.addEventListener('click',openMenu);
 window.addEventListener('scroll', scrollAppear);

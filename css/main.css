@@ -759,6 +759,106 @@ p.aboutBeer span
 
 /* --- PRODUCT PAGE STYLING STARTS ---  */
 
+/* PROCESS PAGE STYLING STARTS HERE */
+
+.parallaxEffect
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 100vh;
+}
+
+.parallaxEffect p
+{
+  font-family: 'Poppins', sans-serif;
+}
+
+p.divTitle
+{
+  font-family: 'Arial', sans-serif;
+  font-size: 5em;
+  font-weight: bolder;
+  color: #fff;
+}
+
+p.divContent
+{
+  text-align: center;
+  width: 50%;
+  font-size: 2em;
+  color: #fff;
+}
+
+.parallaxEffect:nth-child(1)
+{
+  background-image: url("../images/barley.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.parallaxEffect:nth-child(2)
+{
+  background: maroon;
+  height: 60vh;
+}
+
+.parallaxEffect:nth-child(3)
+{
+  background-image: url("../images/hops.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.parallaxEffect:nth-child(4)
+{
+  background: #7a4c08;
+  height: 80vh;
+}
+
+.parallaxEffect:nth-child(5)
+{
+  background-image: url("../images/yest.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.parallaxEffect:nth-child(6)
+{
+  background: maroon;
+  height: 60vh;
+}
+
+.parallaxEffect:nth-child(7)
+{
+  background-image: url("../images/water.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.parallaxEffect:nth-child(8)
+{
+  background: #7a4c08;
+  height: 40vh;
+}
+
+.parallaxEffect:nth-child(9)
+{
+  background-image: url("../images/first.png");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.parallaxEffect:nth-child(10)
+{
+  background: maroon;
+  height: 60vh;
+}
+
+/* PROCESS PAGE STYLING ENDS HERE */
+
 /* Navigation - Media Query */
 
 @media screen and (max-width: 768px)
