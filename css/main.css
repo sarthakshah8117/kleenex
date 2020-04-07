@@ -75,8 +75,8 @@ body
 {
   font-family: 'Poppins', sans-serif;
   font-size: 1em;
-  font-weight: lighter;
-  letter-spacing: 0.5px;
+  font-weight: bold;
+  letter-spacing: 2.5px;
   text-decoration: none;
   list-style: none;
 
@@ -871,6 +871,29 @@ p.divContent
 }
 
 /* PROCESS PAGE STYLING ENDS HERE */
+
+/* HOMEPAGE STYLING STARTS HERE` */
+
+#homeHeader nav
+{
+  display: flex;
+  width: 90%;
+  margin: auto;
+
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.bgCover
+{
+  background-image: url("../images/homeBG.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* HOMEPAGE STYLING ENDS  HERE*/
 
 /* Navigation - Media Query */
 
