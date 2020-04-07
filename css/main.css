@@ -438,7 +438,7 @@ p.klTagSubText
   font-size: 1.08em;
 }
 
-#redText
+.redText
 {
   color: red;
 }
@@ -514,7 +514,7 @@ p.exCount
   height: auto;
 }
 
-#globeImage
+.globeImage
 {
   width: 8vh;
   height: auto;
