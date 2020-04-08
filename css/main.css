@@ -1384,6 +1384,56 @@ span.toLife
     height: 40vh;
   }
   /* Process Page Starts Here */
+
+  /* HOME PAGE STARTS HERE */
+
+  .homeMainCon
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 25px;
+  }
+
+  .homeTagLine p
+  {
+    font-size: 3em;
+    text-align: center;
+  }
+
+  .beerImageCon img
+  {
+    width: 15vh;
+    height: auto;
+  }
+
+  .promoBoxex
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .secImage img
+  {
+    width: 40vh;
+    height: auto;
+  }
+
+  div .wipeText
+  {
+    font-size: 1.5em;
+  }
+
+  div .alcText
+  {
+    font-size: 0.8em;
+  }
+
+  /* HOME PAGE ENDS HERE */
 }
 
 @media screen and (max-width: 950px)
@@ -1628,10 +1678,54 @@ span.toLife
 
   /* PROCESS PAGE ENDS HERE */
 
+  /* HOME PAGE STARTS HERE */
+
+  .homeTagLine p
+  {
+    font-size: 4em;
+  }
+
+  .beerImageCon img
+  {
+    width: 15vh;
+    height: auto;
+  }
+
+  .promoBoxex
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .secImage img
+  {
+    width: 40vh;
+    height: auto;
+  }
+
+  /* div .wipeText
+  {
+    font-size: 1.5em;
+  }
+
+  div .alcText
+  {
+    font-size: 1em;
+  } */
+
+  /* HOME PAGE ENDS HERE */
+
 }
 
 @media screen and (max-width: 1100px)
 {
+
+  .nav-links
+  {
+    width: 70%;
+  }
   /* ABOUT US PAGE  */
   .aboutTitle
   {
