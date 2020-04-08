@@ -75,8 +75,8 @@ body
 {
   font-family: 'Poppins', sans-serif;
   font-size: 1em;
-  font-weight: lighter;
-  letter-spacing: 0.5px;
+  font-weight: bold;
+  letter-spacing: 2.5px;
   text-decoration: none;
   list-style: none;
 
@@ -872,6 +872,225 @@ p.divContent
 
 /* PROCESS PAGE STYLING ENDS HERE */
 
+/* HOMEPAGE STYLING STARTS HERE` */
+
+#homeHeader nav
+{
+  display: flex;
+  width: 90%;
+  margin: auto;
+
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.bgCover
+{
+  background-image: url("../images/homeBG.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.homeMainCon
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 70%;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.beerImageCon img
+{
+  width: 22vh;
+  height: auto;
+  animation-name: bottleSlide;
+  animation-duration: 1.5s;
+}
+
+@keyframes bottleSlide
+{
+  0%
+  {
+    transform: translateX(350px);
+    overflow: hidden;
+    opacity: 0;
+  }
+  100%
+  {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+.promoBoxex img
+{
+  width: 40vh;
+  height: auto;
+  cursor: pointer;
+}
+
+.homeTagLine p
+{
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-size: 6em;
+  font-weight: bolder;
+  color: #fff;
+  letter-spacing: 10px;
+}
+
+span.flaText
+{
+  margin-left: 180px;
+}
+
+span.toLife
+{
+  margin-left: 360px;
+}
+
+.promoCon
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 50px;
+  background-color: #fff;
+  padding: 30px;
+}
+
+.promoConTitle p
+{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+  padding: 20px;
+  text-align: center;
+}
+
+.promoBoxex
+{
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+}
+
+.firstImageCon
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.firstImageCon p
+{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.25em;
+  margin-top: 10px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+    /* POP OVER PAGE STYLING */
+
+.popConOne
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 10px;
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  -moz-transition: 200ms ease-in-out;
+  -ms-transition: 200ms ease-in-out;
+  -o-transition: 200ms ease-in-out;
+
+  width: 90%;
+  height: 90%;
+  z-index: 10;
+}
+
+.popConOne.activePop
+{
+  transform: translate(-50%, -50%) scale(1);
+  background-color: #fff;
+}
+
+.buttonPop a
+{
+  text-decoration: none;
+}
+
+
+.modal-header
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.close-button{
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.8em;
+  font-weight: bolder;
+}
+
+.close-button:hover{
+  background-color: lightgrey;
+  border-radius: 5px;
+}
+
+.widLength
+{
+  width: 80%;
+  padding: 50px;
+  margin: auto;
+}
+
+.overlay
+{
+  position: fixed;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+
+  transition: 200ms ease-in-out;
+  -moz-transition: 200ms ease-in-out;
+  -ms-transition: 200ms ease-in-out;
+  -o-transition: 200ms ease-in-out;
+}
+
+.overlay.activePop
+{
+  opacity: 1;
+  pointer-events: all;
+}
+
+    /* POP OVER PAGE STYLING */
+
+/* HOMEPAGE STYLING ENDS  HERE*/
+
 /* Navigation - Media Query */
 
 @media screen and (max-width: 768px)
@@ -1165,6 +1384,56 @@ p.divContent
     height: 40vh;
   }
   /* Process Page Starts Here */
+
+  /* HOME PAGE STARTS HERE */
+
+  .homeMainCon
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 25px;
+  }
+
+  .homeTagLine p
+  {
+    font-size: 3em;
+    text-align: center;
+  }
+
+  .beerImageCon img
+  {
+    width: 15vh;
+    height: auto;
+  }
+
+  .promoBoxex
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .secImage img
+  {
+    width: 40vh;
+    height: auto;
+  }
+
+  div .wipeText
+  {
+    font-size: 1.5em;
+  }
+
+  div .alcText
+  {
+    font-size: 0.8em;
+  }
+
+  /* HOME PAGE ENDS HERE */
 }
 
 @media screen and (max-width: 950px)
@@ -1409,10 +1678,54 @@ p.divContent
 
   /* PROCESS PAGE ENDS HERE */
 
+  /* HOME PAGE STARTS HERE */
+
+  .homeTagLine p
+  {
+    font-size: 4em;
+  }
+
+  .beerImageCon img
+  {
+    width: 15vh;
+    height: auto;
+  }
+
+  .promoBoxex
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .secImage img
+  {
+    width: 40vh;
+    height: auto;
+  }
+
+  /* div .wipeText
+  {
+    font-size: 1.5em;
+  }
+
+  div .alcText
+  {
+    font-size: 1em;
+  } */
+
+  /* HOME PAGE ENDS HERE */
+
 }
 
 @media screen and (max-width: 1100px)
 {
+
+  .nav-links
+  {
+    width: 70%;
+  }
   /* ABOUT US PAGE  */
   .aboutTitle
   {

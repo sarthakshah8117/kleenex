@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/reset.css" media="screen">
+    <link rel="stylesheet" href="css/main.css" media="screen">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:900&display=swap" rel="stylesheet">
+    <title>Kleenex - Wet Wipes | Home </title>
+  </head>
+  <body class="bgCover">
+      <header id="homeHeader">
+        <h2 class="hidden">Main Header Container</h2>
+          <nav class="nav">
+            <h3 class="hidden">Navigation Bar</h3>
+            <div class="logo">
+              <h4 class="hidden">Logo</h4>
+                <img src="images/logo.svg" alt="logo">
+            </div>
+      			<ul class="nav-links contact-links">
+      				<li><a href="index.html" class="navHover conHover active">HOME</a></li>
+      				<li><a href="about.html" class="navHover conHover">ABOUT</a></li>
+      				<li><a href="process.html" class="navHover conHover">PROCESS</a></li>
+      				<li><a href="product.html" class="navHover conHover">PRODUCTS</a></li>
+      				<li><a href="contact.html" class="navHover conHover">REACH US</a></li>
+      			</ul>
+            <div class="burgerMenu">
+              <h4 class="hidden">Burger menu Icon</h4>
+                <img src="images/bars-solid.svg" alt="bar">
+            </div>
+    		</nav>
+      </header>
+      <main>
+          <section class="homeMainCon">
+              <div class="homeTagLine">
+                <p>ADDING<br>FLAVOURS<br>TO LIFE.</p>
+              </div>
+
+              <div class="beerImageCon">
+                <img src="images/bottle.png" alt="beerBottle">
+              </div>
+          </section>
+
+          <section class="promoCon">
+
+            <div class="promoConTitle">
+                <p>Hit Beer To Know More</p>
+            </div>
+
+            <div class="promoBoxex">
+                <div class="firstImageCon">
+                  <img data-modal="#modal" data-image="1" data-content="0" src="images/product_01.png" alt="productImage01">
+                  <p>Gentle Clean</p>
+                </div>
+                <div class="firstImageCon">
+                  <img data-modal="#modal" data-image="2" data-content="1" src="images/product_02.png" data-image="1" data-content="1" alt="productImage02">
+                  <p>Green</p>
+                </div>
+                <div class="firstImageCon">
+                  <img data-modal="#modal" data-image="3" data-content="2" src="images/product_03.png" data-image="2" data-content="2" alt="productImage03">
+                  <p>Orange</p>
+                </div>
+            </div>
+          </section>
+
+          <!-- POP OVER BOX CONTAINER & DESCRIPTION -->
+
+          <!-- FIRST PRODUCT REPRESENTATION -->
+          <section class="popConOne" id="modal">
+
+              <div class="modal-header">
+                  <button data-close-button class="close-button popButton">&times;</button>
+              </div>
+
+              <div class="firstProductCon secCon flexCon widLength" >
+
+                <div class="secImage">
+                    <img src="images/product_01_02.png" alt="firstProductImage">
+                </div>
+
+                <div class="productContent">
+                      <p class="wipeText"></p>
+                      <p class="alcText"></p>
+
+                      <a href="product.html"><button class="but but1 buttonPop">Learn More</button></a>
+                </div>
+
+              </div>
+
+          </section>
+          <div class="overlay"></div>
+          <!-- POP OVER BOX CONTAINER & DESCRIPTION -->
+
+      </main>
+      <footer class="footAbout">
+        <h2 class="hidden">Main Footer</h2>
+        <div class="aboutFooter">
+          <h3 class="hidden">Content in Column</h3>
+          <div class="aboutCopyCon">
+            <h4 class="hidden">Copyright Text</h4>
+            <div class="copyCon">
+              <p>© Copyright Reserved 2020.</p>
+            </div>
+          </div>
+
+          <div class="socialRowAbout">
+              <h3 class="hidden">Social Media Icon</h3>
+              <a href="https://www.instagram.com/kleenex/?hl=en"><img src="images/instagram.svg" alt="insta"></a>
+              <a href="https://www.facebook.com/Kleenex/photos/our-new-kleenex-wet-wipes-have-the-same-thick-soft-feel-that-our-tissues-have-%EF%B8%8F%EF%B8%8F/10155552945608199/"><img src="images/facebook.svg" alt="fb"></a>
+              <a href="https://twitter.com/kleenex/status/1163893180439388166?lang=en"><img src="images/twitter.svg" alt="twitter"></a>
+          </div>
+
+        </div>
+
+      </footer>
+      <script src="js/main.js"></script>
+  </body>
