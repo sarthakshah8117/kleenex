@@ -11,6 +11,17 @@
             beerImage = document.querySelectorAll('.firstImageCon img'),
             popImage = document.querySelector('.popConOne .firstProductCon .secImage img');
 
+      // Beer Title and Alchohol description for dynamic content and text selection
+
+      const infoCon = [
+          ["GETLE CLEAN WETWIPES",`ALC / VOL 5.2%`],
+          ["GETLE GREEN WETWIPES",`ALC / VOL 6.2%`],
+          ["GETLE ORANGE WETWIPES",`ALC / VOL 6%`]
+      ];
+
+      const title = document.querySelector('.popConOne .firstProductCon div .wipeText');
+      const alcDes = document.querySelector('.popConOne .firstProductCon div .alcText');
+
 
       function openMenu()
       {
@@ -68,6 +79,9 @@
       {
          popImage.src = `images/${"product_0" + this.dataset.image + "_02"}.png`;
          console.log(popImage.src);
+
+         title.textContent = `${infoCon[this.dataset.content][0]}`;
+         alcDes.textContent = `${infoCon[this.dataset.content][1]}`;
       }
 
       burger.addEventListener('click',openMenu);
