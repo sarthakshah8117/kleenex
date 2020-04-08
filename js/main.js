@@ -7,7 +7,10 @@
       const parallax = document.querySelector('#barley');
       const imgSelection = document.querySelectorAll('[data-modal]');
       const closeButton = document.querySelectorAll('[data-close-button]');
-      const overlay = document.querySelector('.overlay');
+      const overlay = document.querySelector('.overlay'),
+            beerImage = document.querySelectorAll('.firstImageCon img'),
+            popImage = document.querySelector('.popConOne .firstProductCon .secImage img');
+
 
       function openMenu()
       {
@@ -60,7 +63,12 @@
         overlay.classList.remove('activePop');
       }
 
-
+      // change image
+      function changeImage()
+      {
+         popImage.src = `images/${"product_0" + this.dataset.image + "_02"}.png`;
+         console.log(popImage.src);
+      }
 
       burger.addEventListener('click',openMenu);
       window.addEventListener('scroll', scrollAppear);
@@ -83,5 +91,8 @@
         const modal = button.closest('.popConOne')
         closeBox(modal);
       }));
+
+
+      beerImage.forEach(beer => beer.addEventListener('click', changeImage));
 
 })();
