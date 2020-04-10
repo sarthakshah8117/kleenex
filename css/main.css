@@ -798,23 +798,23 @@ p.divContent
   color: #fff;
 }
 
-.parallaxEffect:nth-child(1)
+.parallaxEffect:nth-child(2)
 {
-  background-image: : url("../images/barley.jpg");
+  background: url("../images/barley.jpg");
   min-height: 100vh;
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
 }
 
-.parallaxEffect:nth-child(2)
+.parallaxEffect:nth-child(3)
 {
   background: maroon;
   background-size: contain;
   height: 60vh;
 }
 
-.parallaxEffect:nth-child(3)
+.parallaxEffect:nth-child(4)
 {
   background-image: url("../images/hops.jpg");
   background-position: center;
@@ -822,13 +822,13 @@ p.divContent
   background-size: cover;
 }
 
-.parallaxEffect:nth-child(4)
+.parallaxEffect:nth-child(5)
 {
   background: #7a4c08;
   height: 80vh;
 }
 
-.parallaxEffect:nth-child(5)
+.parallaxEffect:nth-child(6)
 {
   background-image: url("../images/yest.jpg");
   background-position: center;
@@ -836,13 +836,13 @@ p.divContent
   background-size: cover;
 }
 
-.parallaxEffect:nth-child(6)
+.parallaxEffect:nth-child(7)
 {
   background: maroon;
   height: 60vh;
 }
 
-.parallaxEffect:nth-child(7)
+.parallaxEffect:nth-child(8)
 {
   background-image: url("../images/water.jpg");
   background-position: center;
@@ -850,13 +850,13 @@ p.divContent
   background-size: cover;
 }
 
-.parallaxEffect:nth-child(8)
+.parallaxEffect:nth-child(9)
 {
   background: #7a4c08;
   height: 40vh;
 }
 
-.parallaxEffect:nth-child(9)
+.parallaxEffect:nth-child(10)
 {
   background-image: url("../images/packaging.png");
   background-position: center;
@@ -864,7 +864,7 @@ p.divContent
   background-size: cover;
 }
 
-.parallaxEffect:nth-child(10)
+.parallaxEffect:nth-child(11)
 {
   background: maroon;
   height: 60vh;
@@ -1303,7 +1303,7 @@ span.toLife
     line-height: 35px;
   }
 
-  .parallaxEffect:nth-child(1)
+  .parallaxEffect:nth-child(2)
   {
     background: url("../images/barley.jpg");
     min-height: 60vh;
@@ -1313,14 +1313,14 @@ span.toLife
     background-size: cover;
   }
 
-  .parallaxEffect:nth-child(2)
+  .parallaxEffect:nth-child(3)
   {
     background: maroon;
     background-size: contain;
     height: 40vh;
   }
 
-  .parallaxEffect:nth-child(3)
+  .parallaxEffect:nth-child(4)
   {
     background-image: url("../images/hops.jpg");
     min-height: 60vh;
@@ -1330,13 +1330,13 @@ span.toLife
     background-size: cover;
   }
 
-  .parallaxEffect:nth-child(4)
+  .parallaxEffect:nth-child(5)
   {
     background: #7a4c08;
     height: 40vh;
   }
 
-  .parallaxEffect:nth-child(5)
+  .parallaxEffect:nth-child(6)
   {
     background-image: url("../images/yest.jpg");
     min-height: 60vh;
@@ -1346,13 +1346,13 @@ span.toLife
     background-size: cover;
   }
 
-  .parallaxEffect:nth-child(6)
+  .parallaxEffect:nth-child(7)
   {
     background: maroon;
     height: 40vh;
   }
 
-  .parallaxEffect:nth-child(7)
+  .parallaxEffect:nth-child(8)
   {
     background-image: url("../images/water.jpg");
     min-height: 60vh;
@@ -1362,13 +1362,13 @@ span.toLife
     background-size: cover;
   }
 
-  .parallaxEffect:nth-child(8)
+  .parallaxEffect:nth-child(9)
   {
     background: #7a4c08;
     height: 40vh;
   }
 
-  .parallaxEffect:nth-child(9)
+  .parallaxEffect:nth-child(10)
   {
     background-image: url("../images/packaging.png");
     min-height: 60vh;
@@ -1378,7 +1378,7 @@ span.toLife
     background-size: cover;
   }
 
-  .parallaxEffect:nth-child(10)
+  .parallaxEffect:nth-child(11)
   {
     background: maroon;
     height: 40vh;
@@ -1595,7 +1595,7 @@ span.toLife
     line-height: 35px;
   }
 
-  .parallaxEffect:nth-child(1)
+  .parallaxEffect:nth-child(2)
   {
     background: url("../images/barley.jpg");
     min-height: 60vh;
@@ -1605,14 +1605,14 @@ span.toLife
     background-size: cover;
   }
 
-  .parallaxEffect:nth-child(2)
+  .parallaxEffect:nth-child(3)
   {
     background: maroon;
     background-size: contain;
     height: 40vh;
   }
 
-  .parallaxEffect:nth-child(3)
+  .parallaxEffect:nth-child(4)
   {
     background-image: url("../images/hops.jpg");
     min-height: 60vh;
@@ -1622,13 +1622,13 @@ span.toLife
     background-size: cover;
   }
 
-  .parallaxEffect:nth-child(4)
+  .parallaxEffect:nth-child(5)
   {
     background: #7a4c08;
     height: 40vh;
   }
 
-  .parallaxEffect:nth-child(5)
+  .parallaxEffect:nth-child(6)
   {
     background-image: url("../images/yest.jpg");
     min-height: 60vh;
@@ -1638,13 +1638,13 @@ span.toLife
     background-size: cover;
   }
 
-  .parallaxEffect:nth-child(6)
+  .parallaxEffect:nth-child(7)
   {
     background: maroon;
     height: 40vh;
   }
 
-  .parallaxEffect:nth-child(7)
+  .parallaxEffect:nth-child(8)
   {
     background-image: url("../images/water.jpg");
     min-height: 60vh;
@@ -1654,13 +1654,13 @@ span.toLife
     background-size: cover;
   }
 
-  .parallaxEffect:nth-child(8)
+  .parallaxEffect:nth-child(9)
   {
     background: #7a4c08;
     height: 40vh;
   }
 
-  .parallaxEffect:nth-child(9)
+  .parallaxEffect:nth-child(10)
   {
     background-image: url("../images/packaging.png");
     min-height: 60vh;
@@ -1670,10 +1670,10 @@ span.toLife
     background-size: cover;
   }
 
-  .parallaxEffect:nth-child(10)
+  .parallaxEffect:nth-child(11)
   {
     background: maroon;
-    height: 60vh;
+    height: 80vh;
   }
 
   /* PROCESS PAGE ENDS HERE */
@@ -1780,7 +1780,7 @@ span.toLife
     line-height: 35px;
   }
 
-  .parallaxEffect:nth-child(1)
+  .parallaxEffect:nth-child(2)
   {
     background: url("../images/barley.jpg");
     min-height: 60vh;
@@ -1790,14 +1790,14 @@ span.toLife
     background-size: cover;
   }
 
-  .parallaxEffect:nth-child(2)
+  .parallaxEffect:nth-child(3)
   {
     background: maroon;
     background-size: contain;
     height: 40vh;
   }
 
-  .parallaxEffect:nth-child(3)
+  .parallaxEffect:nth-child(4)
   {
     background-image: url("../images/hops.jpg");
     min-height: 60vh;
@@ -1807,13 +1807,13 @@ span.toLife
     background-size: cover;
   }
 
-  .parallaxEffect:nth-child(4)
+  .parallaxEffect:nth-child(5)
   {
     background: #7a4c08;
     height: 40vh;
   }
 
-  .parallaxEffect:nth-child(5)
+  .parallaxEffect:nth-child(6)
   {
     background-image: url("../images/yest.jpg");
     min-height: 60vh;
@@ -1823,13 +1823,13 @@ span.toLife
     background-size: cover;
   }
 
-  .parallaxEffect:nth-child(6)
+  .parallaxEffect:nth-child(7)
   {
     background: maroon;
     height: 40vh;
   }
 
-  .parallaxEffect:nth-child(7)
+  .parallaxEffect:nth-child(8)
   {
     background-image: url("../images/water.jpg");
     min-height: 60vh;
@@ -1839,13 +1839,13 @@ span.toLife
     background-size: cover;
   }
 
-  .parallaxEffect:nth-child(8)
+  .parallaxEffect:nth-child(9)
   {
     background: #7a4c08;
     height: 40vh;
   }
 
-  .parallaxEffect:nth-child(9)
+  .parallaxEffect:nth-child(10)
   {
     background-image: url("../images/packaging.png");
     min-height: 60vh;
@@ -1855,13 +1855,23 @@ span.toLife
     background-size: cover;
   }
 
-  .parallaxEffect:nth-child(10)
+  .parallaxEffect:nth-child(11)
   {
     background: maroon;
-    height: 40vh;
+    height: 80vh;
   }
 
   /* PROCESS PAGE ENDS HERE */
+}
+
+@media screen and (max-width: 1380px)
+{
+  .parallaxEffect:nth-child(11)
+  {
+    background: maroon;
+    height: 90vh;
+    padding: 50px;
+  }
 }
 
 /* Navigation - Media Query ends */
