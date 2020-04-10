@@ -15,8 +15,8 @@
 
       const infoCon = [
           ["GETLE CLEAN WETWIPES",`ALC / VOL 5.2%`],
-          ["GETLE GREEN WETWIPES",`ALC / VOL 6.2%`],
-          ["GETLE ORANGE WETWIPES",`ALC / VOL 6%`]
+          ["SENSITIVE WETWIPES",`ALC / VOL 6.2%`],
+          ["GERM REMOVAL WETWIPES",`ALC / VOL 6%`]
       ];
 
       const title = document.querySelector('.popConOne .firstProductCon div .wipeText');
