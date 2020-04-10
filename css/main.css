@@ -800,7 +800,7 @@ p.divContent
 
 .parallaxEffect:nth-child(1)
 {
-  background: url("../images/barley.jpg");
+  background-image: : url("../images/barley.jpg");
   min-height: 100vh;
   background-position: center;
   background-attachment: fixed;
