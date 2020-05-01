@@ -48,12 +48,7 @@ which is somehow new and challenging to us.
 
 ### Authors
 
-**Here is the team of two who are responsible to create this awesome project.**
-
-![Team Awesome](/images/poster.png)
-
 1. Deepkumar Patel(0953510)
-2. Sarthak Shah(0947631)
 
 ### License
 
